@@ -26,6 +26,11 @@ main > aside {
     font-size: 5rem;
 }
 
+main > section > div:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 main > section > div:nth-child(2) {
     background-color: #fff;
     box-shadow: 0 5px 5px #d6d6d6;
