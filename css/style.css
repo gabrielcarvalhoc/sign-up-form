@@ -45,5 +45,23 @@ main > section > div:nth-child(1) {
 
 .inputs input:hover {
     box-shadow: 0 1px 6px #20212447;
+}
 
+.btn {
+    background-color: #5e5c47;
+    border: 1px solid #5e5c47;
+    color: #f3f5f7;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #b6b394;
+    border: 1px solid #b6b394;
+    color: #5e5c47;
+}
+
+.log-in {
+    text-decoration: none;
+    color: #5e5c47;
+    font-weight: 700;
 }
