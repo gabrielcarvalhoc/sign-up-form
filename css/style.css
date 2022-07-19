@@ -1,0 +1,17 @@
+body {
+    background-color: #f3f5f7;
+}
+
+main {
+    height: 100vh;
+}
+
+main > aside {
+    background-image: url(../img/travel.jpg);
+    background-size: cover;
+}
+
+main > section > div:nth-child(2) {
+    background-color: #fff;
+    box-shadow: 0 5px 5px #d6d6d6;
+}
