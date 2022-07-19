@@ -27,7 +27,7 @@ main > aside {
 }
 
 main > section > div:nth-child(1) {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
 
@@ -35,6 +35,10 @@ main > section > div:nth-child(1) {
     background-color: #fff;
     box-shadow: 0 5px 5px #d6d6d6;
     color: #494949;
+}
+
+.inputs h3 {
+    font-size: 1.3rem;
 }
 
 .inputs label {
@@ -60,8 +64,20 @@ main > section > div:nth-child(1) {
     color: #5e5c47;
 }
 
+.btn:focus,
+.btn:active {
+    background-color: #5e5c47;
+    border: 1px solid #5e5c47;
+    color: #f3f5f7;
+    box-shadow: none;
+}
+
 .log-in {
     text-decoration: none;
     color: #5e5c47;
     font-weight: 700;
+}
+
+.log-in:hover {
+    color: #5e5c47;
 }
